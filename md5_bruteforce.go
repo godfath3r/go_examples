@@ -1,3 +1,8 @@
+/*
+  This source code is written by me (http://github.com/godfath3r) and it's 
+  released under "It's crap, don't use it!" License. :P The only purpose of 
+  this code is to get me starting with the Go Language.
+*/
 package main
 
 import (
@@ -6,7 +11,13 @@ import (
 	"io"
 )
 
-var letters []string = []string{"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "/", "|", "[", "]"}
+var letters []string = []string{"a","b","c","d","e","f","g","h","i","j","k","l",
+			"m","n","o","p","q","r","s","t","u","v","w","x","y","z", 
+			"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", 
+			"L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", 
+			"W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", 
+			"7", "8", "9", "~", "!", "@", "#", "$", "%", "^", "&", 
+			"*", "(", ")", "/", "|", "[", "]"}
 
 var digits int = 4 
 var word []int = make([]int, digits)
